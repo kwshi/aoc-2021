@@ -1,0 +1,65 @@
+NEED:
+d2+6 = d3
+d5+7 = d6
+d8+3 = d9
+d7-2 = d10
+d4+1 = d11
+d1+8 = d12
+d0-3 = d13
+
+91398299697996
+
+41171183141291
+
+
+inp w = d0
+push(z, d0+4)
+
+inp w = d1
+push(z, d1+10)
+
+inp w = d2
+push(z, d2+12)
+
+inp w = d3
+pop(z)
+if d2+6 != d3:
+  push(z, d3+14)
+
+inp w = d4
+push(z, d4+6)
+
+inp w = d5
+push(z, d5+16)
+
+inp w = d6
+pop(z)
+if d5+7!=d6:
+  push(z, d6+1)
+
+inp w = d7
+push(z, d7+7)
+
+inp w = d8
+push(z, d8+8)
+
+inp w = d9
+pop(z)
+if d8+3 != d9:
+  push(z, d9+11)
+
+inp w = d10
+if pop(z)-9 != d10: # d7-2 = d10
+  push(z, d10+8)
+
+inp w = d11
+if pop(z)-5 != d11: # d4+1 = d11
+  push(z, d11+3)
+
+inp w = d12
+if pop(z)-2 != d12: # d1+8 = d12
+  push(z, d12+1)
+
+inp w = d13
+if pop(z)-7 != d13: # d0-3 = d13
+  push(z, d13+8)

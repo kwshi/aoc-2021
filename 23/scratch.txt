@@ -1,0 +1,81 @@
+############# 0
+#...........#
+###D#B#D#B###
+  #C#A#A#C#
+  #########
+
+############# 70
+#..........B#
+###D#.#D#B###
+  #C#A#A#C#
+  #########
+
+#############
+#.......A..B# 5
+###D#.#D#B###
+  #C#.#A#C#
+  #########
+
+#############
+#.......A..B# 5000
+###.#.#D#B###
+  #C#D#A#C#
+  #########
+
+#############
+#.......A..B# 4000
+###.#D#.#B###
+  #C#D#A#C#
+  #########
+
+#############
+#..........B# 2
+###.#D#A#B###
+  #C#D#A#C#
+  #########
+
+#############
+#.........BB# 20
+###.#D#A#.###
+  #C#D#A#C#
+  #########
+
+#############
+#.........BB# 900
+###C#D#A#.###
+  #C#D#A#.#
+  #########
+
+#############
+#..........B# 30
+###C#D#A#.###
+  #C#D#A#B#
+  #########
+
+#############
+#..........B# 30
+###C#D#A#.###
+  #C#D#A#B#
+  #########
+
+by hand:
+want CDAB or CDBA.
+
+BA evacuate: B moves 7 steps, 70
+A moves right just past its 3rd slot: 5
+
+75 total so far
+
+both D come in: 5 + 4 = 9 steps, 9000
+
+9075 total, D finalized.
+
+A in, 2 steps, 9077, A final.
+
+B 2 steps to make way for C, 9097.
+
+C 7 steps, 700. 9797.  C final.
+
+B slide in, both, 6 steps total. 9857.
+
+B full left, other follows (other option is to have B slide left a bit to let A in, then B right

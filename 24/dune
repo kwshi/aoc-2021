@@ -1,0 +1,3 @@
+(executable
+ (name 24)
+ (libraries containers))

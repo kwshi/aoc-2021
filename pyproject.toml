@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "aoc-2021"
+version = "0.1.0"
+description = ""
+authors = ["Kye Shi <shi.kye@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+kstricks = {git = "https://github.com/kwshi/kstricks"}
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.910"
+black = "^21.12b0"
+python-language-server = "^0.36.2"
+neovim = "^0.3.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

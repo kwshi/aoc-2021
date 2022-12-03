@@ -1,0 +1,11 @@
+#############
+#...........#
+###D#B#D#B###
+  #D#C#B#A#
+  #D#B#A#C#
+  #C#A#A#C#
+  #########
+
+janky-ass towers of hanoi
+
+
